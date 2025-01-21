@@ -34,7 +34,16 @@ A classe `Tabuleiro` representa o tabuleiro do jogo da velha. Aqui estão as pri
 - **Checar empate**: Verifica se o tabuleiro está cheio, indicando um empate.
 - **Exibir o tabuleiro**: Mostra o estado atual do jogo no console para os jogadores.
 
+
+## Classe `Controlador`
+A classe Controlador foi criada para gerenciar o fluxo do jogo. Suas principais responsabilidades são:
+
+- **Gerenciar os turnos**: Alterna entre os jogadores 'X' e 'O'.
+- **Processar jogadas**: Valida as entradas dos jogadores, atualiza o tabuleiro e verifica condições de vitória ou empate.
+- **Exibir o tabuleiro**: Utiliza a funcionalidade da classe Tabuleiro para mostrar o estado atual do jogo no console.
+
 ##📌 <span style="color:yellow;">Próximos Passos</span>
-- Criar a classe **Controlador** para gerenciar o fluxo do jogo e as regras.
-- Implementar a classe **Visão** para interação com os jogadores.
-- Testar a integração das classes no padrão MVC.
+- **Implementar a classe Visão** para gerenciar a interação com os jogadores.
+- **Integrar as classes** Tabuleiro, Controlador e Visão para criar o fluxo completo do jogo.
+- **Testar** o sistema e refinar a lógica do jogo para garantir usabilidade e funcionalidade.
+

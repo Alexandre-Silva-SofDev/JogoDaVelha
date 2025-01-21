@@ -63,7 +63,7 @@ public class Tabuleiro {
 
         }
         // Verifica as diagonais.
-        if((matriz[0][0] == simbolo && matriz[1][1] == simbolo && matriz[2][2 == simbolo) || // Diagonal principal.
+        if((matriz[0][0] == simbolo && matriz[1][1] == simbolo && matriz[2][2] == simbolo) || // Diagonal principal.
                 (matriz[0][2] == simbolo && matriz[1][1] == simbolo && matriz[2][0] == simbolo)) { // Diagonal secundária.
             return true;
     }
