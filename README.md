@@ -1,7 +1,8 @@
-<span style="color:yellow;">Jogo da Velha em Java</span>
+# <span style="color:yellow;">Jogo da Velha em Java</span>
+
 Um jogo da velha simples desenvolvido em Java.
 
-🚀 <span style="color:yellow;">Funcionalidades Implementadas</span>
+## 🚀 <span style="color:yellow;">Funcionalidades Implementadas</span>
 * Dois jogadores humanos podem jogar entre si.
 
 * Interface textual simples para interação com o usuário.
@@ -12,7 +13,7 @@ Um jogo da velha simples desenvolvido em Java.
 
 * Validação de jogadas para garantir que as posições escolhidas estejam dentro dos limites do tabuleiro e disponíveis.
 
-📦 <span style="color:yellow;">Estrutura do Projeto</span>
+## 📦 <span style="color:yellow;">Estrutura do Projeto</span>
 src
 └── com
 └── jogodavelha
@@ -24,7 +25,7 @@ src
 └── view
 └── Visao.java
 
-📝 <span style="color:yellow;">Implementações Recentes</span>
+## 📝 <span style="color:yellow;">Implementações Recentes</span>
 
 # Classe Tabuleiro
 
